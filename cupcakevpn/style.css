@@ -14,7 +14,6 @@
     font-style: normal;
 }
 .lin{
-    box-sizing: inherit;
     text-align: center;
     font-size: 30px;
     margin-top: 10px;
@@ -77,7 +76,7 @@
 .boxx1{
     background-color: rgb(216, 216, 216);
     text-align: center;
-    margin: 10px 500px 10px 500px;
+    margin: 10px 500px 0px 500px;
     padding: 30px 20px 30px 20px;
     border-radius: 100%;
 }
@@ -89,4 +88,13 @@
 @keyframes boxx1 {
     from {background-color: rgb(216, 216, 216);}
     to {background-color: rgb(91, 247, 221);}
+}
+.form{
+    padding: 50px;
+    margin-top: -41px;
+    text-align: center;
+}
+.log{
+    text-align: center;
+    margin-top: -50px;
 }
