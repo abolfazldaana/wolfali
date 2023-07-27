@@ -57,6 +57,7 @@
     
 }
 .animate{
+    letter-spacing: -4px;
     background-color: rgb(216, 216, 216);
     text-align: center;
     margin: 10px 500px 10px 500px;
@@ -74,6 +75,7 @@
     to {background-color: rgb(91, 247, 221);}
 }
 .boxx1{
+    letter-spacing: -4px;
     background-color: rgb(216, 216, 216);
     text-align: center;
     margin: 10px 500px 0px 500px;

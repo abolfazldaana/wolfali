@@ -21,15 +21,21 @@
         
         </pre>
     </div>
-    <!-- login form -->
-    <h2 class="log">ورود به حساب کاربری</h2>
-    <form class="form" action="" method="">
-            <label for="usn" style="font-size: 25px;" >نام کاربری خود را وارد کنید </span><input id="usn" style="width: 200px; height: 30px; box-sizing: 4px ; margin: 10px 10px 10px 10px; text-align: center;" type="text" / name="" value="" placeholder="نام کاربری">
-            <br>
-            <label for="pass" style="font-size: 25px;">رمز عبور خود را وارد کنید</span><input id="pass" style="width: 200px; height: 30px; box-sizing: 4px ; margin: 10px 10px 10px 10px; text-align: center;" type="password" / name="" value="" placeholder="رمز عبور" >
-        
+<!-- login form -->
+<h2 class="log">ورود به حساب کاربری</h2>
+<form class="form" action="save_login.php" method="post">
+    <label for="usn" style="font-size: 25px;">نام کاربری خود را وارد کنید </label>
+    <input id="usn" style="width: 200px; height: 30px; box-sizing: 4px; margin: 10px 10px 10px 10px; text-align: center;" type="text" name="username" value="" placeholder="نام کاربری">
+    <br>
+    <label for="pass" style="font-size: 25px;">رمز عبور خود را وارد کنید</label>
+    <input id="pass" style="width: 200px; height: 30px; box-sizing: 4px; margin: 10px 10px 10px 10px; text-align: center;" type="password" name="password" value="" placeholder="رمز عبور">
+    <br>
+    <label for="rememberme">مرا به خاطر بسپار </label>
+    <input type="checkbox" name="rememberme" id="rememberme">
+    <br>
+    <input type="submit" value="ورود" name="submit">
+</form>
 
-    </form>
 </section>
 
 </body>
