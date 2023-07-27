@@ -14,15 +14,31 @@
     font-style: normal;
 }
 .lin{
+    box-sizing: inherit;
     text-align: center;
     font-size: 30px;
     margin-top: 10px;
 
 }
-.backG{
+/* .backG{
     background-image: url(../img/sky.jpg);
     padding-top: 15px;
+} */
+.backG{
+    background-image: url(../img/sky.jpg);
+    animation-name: bakg;
+    animation-duration: 2.5s;
 }
+@keyframes bakg {
+    from {
+        opacity: 10%;
+
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
 .vpnsymbol{
     text-align: left;
     width: 100px;
@@ -42,6 +58,7 @@
     
 }
 .animate{
+    background-color: rgb(216, 216, 216);
     text-align: center;
     margin: 10px 500px 10px 500px;
     padding: 30px 20px 30px 20px;
@@ -54,10 +71,11 @@
     animation-duration: 1s;
 }
 @keyframes boxA {
-    from {background-color: rgb(94, 94, 94);}
-    to {background-color: rgb(216, 216, 216);}
+    from {background-color: rgb(216, 216, 216);}
+    to {background-color: rgb(91, 247, 221);}
 }
 .boxx1{
+    background-color: rgb(216, 216, 216);
     text-align: center;
     margin: 10px 500px 10px 500px;
     padding: 30px 20px 30px 20px;
@@ -69,6 +87,6 @@
     animation-duration: 1s;
 }
 @keyframes boxx1 {
-    from {background-color: rgb(94, 94, 94);}
-    to {background-color: rgb(216, 216, 216);}
+    from {background-color: rgb(216, 216, 216);}
+    to {background-color: rgb(91, 247, 221);}
 }
