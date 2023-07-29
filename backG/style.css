@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Edu SA Beginner', cursive;
+    text-align: center;
+}
+body{
+    background-image: url(../img/bg\ grad.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.welcome{
+    text-shadow: 0px 0px 10px rgb(250, 228, 119);
+    color: rgb(238, 235, 235);
+    font-size: 150px;
+}
+.mnu{
+    
+    position: relative;  
+    margin: 25px 100px;
+}
+
+li{ 
+    padding: 10px 10px 10px 10px;
+    display: inline;
+    font-size: 40px;
+}
+a{
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    /* box-shadow: 6px 5px 5px rgb(250, 228, 119); */
+    text-shadow: 1px 1px 5px rgb(250, 228, 119);
+    border-width: 5px;
+    border-color: rgb(51, 51, 51);
+    border-radius: 20px;
+    /* position: absolute; */
+    vertical-align: 10px;
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+}
+a:hover{
+    animation-name: hov;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+@keyframes hov {
+    from {border-color: rgb(51, 51, 51);
+        
+        }
+    to {border-color: rgb(166, 0, 255);
+        box-shadow: 0px 0px 25px rgb(166, 0, 255) ;
+        }
+}
+.wik{
+    color: aliceblue;
+    padding: 30px 150px 25px 150px;
+    font-size: 30px;
+}
+footer{
+    font-size: 50px;
+    height: 150px;
+    background-color: black;
+    color: aliceblue;
+}
+.ftr{
+    display: inline;
+    text-shadow: 0px 0px 12px rgb(166, 0, 255);
+}
+.mn1{
+    position: relative;
+}
+.mn12{
+    position: absolute;
+    top: 70px;
+    right: 530px;
+    display: none;
+    opacity: 0%;
+
+}
+
+.mn12 li{
+    display: block;
+    padding-top: 20px;
+}
+.mn12 li a{
+    background-color: rgb(43, 43, 43);
+}
+
+li.mnu1:hover ul.mn12 {
+    position: absolute;
+    display: block;
+    animation-name: hvmn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes hvmn {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+.vid{
+    
+    width: 200px;
+    height: 200px;
+}
