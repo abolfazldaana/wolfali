@@ -214,18 +214,24 @@ ul{
     to {
         scale: 110%;
         color: rgb(0, 132, 255);
-
         border-color: rgb(0, 38, 255) ;
     }
     
 }
 .viiid{
-    margin: 20px;
+    border: 5px solid gray;
+    margin-top: 20px;
+    padding-top: 10px;    
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 15px rgb(143, 76, 0);
+    margin-left: 520px;
+    margin-right: 520px;
 }
 .labell{
     font-size: 25px;
     color: aliceblue;
-    text-shadow: 0 0 10px aqua;
 }
 .coninS{
     margin: 20px;
