@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* font-family: shabnam; */
+    text-align: center;
+}
+@font-face {
+    font-family: shabnam;
+    src: url('../font/Shabnam-Bold.eot') format('eot'), 
+    url('../font/Shabnam-Bold.woff') format('woff'),
+    url('../font/Shabnam-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

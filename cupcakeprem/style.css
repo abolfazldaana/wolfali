@@ -15,10 +15,26 @@
 }
 .lod{
     padding-top: 25px;
-    background-image: linear-gradient(rgb(65, 64, 64),rgb(1, 70, 70));
-    animation-name: llod;
+    background-image: linear-gradient(90deg,blue,rgb(54, 54, 54),rgb(0, 153, 153));
+    /* animation-name: llod;
     animation-duration: 2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100%;
+    animation: bgm 8s ease infinite;
+}
+@keyframes bgm{
+    0%{
+        background-position: 0 50%;
+    }    
+    50%{
+        background-position: 100% 50%;
+    }    
+    100%{
+        background-position: 0 50%;
+    }
+    
 }
 @keyframes llod {
     from{
@@ -74,7 +90,6 @@ h1{
     font-family: shabnam;
     text-decoration: none;
 }
-
 li{
     /* background-color: rgb(0, 0, 0); */
     filter: drop-shadow(0 0 10px rgb(0, 0, 0));
@@ -187,7 +202,20 @@ ul{
     font-size: 2vw;
     display: inline;
     text-shadow: 0 0 10px aqua;
-
+    padding-top: 50px;
+    margin-top: 25px;
+}
+.config1{
+    position: relative;
+    color: aliceblue;
+    font-size: 2.5vw;
+    display: inline;
+    text-shadow: 0 0 10px aqua;
+    margin-left: 0;
+    margin-right: 207px;
+    margin-top: 25px;
+    /* margin-bottom: 250px;
+    /* margin-bottom: 250px;     */
 }
 .bgR{
     font-size: 25px;
@@ -219,15 +247,17 @@ ul{
     
 }
 .viiid{
+    float: left;
     /* border: 5px solid gray; */
     margin-top: 20px;
     padding-top: 10px;    
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
     /* border-radius: 15px 15px 15px 15px; */
     /* box-shadow: 0 0 15px rgb(143, 76, 0); */
-    margin-left: 520px;
-    margin-right: 520px;
+    margin-left: 300px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 .labell{
     font-size: 25px;
@@ -239,6 +269,16 @@ ul{
     border-radius: 15px 15px 15px 15px;
     width: 25vw;
     height: 6vw;
+}
+.conmt1{
+    color: aliceblue;
+    font-size: 5vw;
+    display: block;
+    text-shadow: 0 0 10px aqua;
+    margin-bottom: 50px;
+}
+.conmt{
+    margin-top: 0;
 }
 .anni{
     filter: drop-shadow(0 0 10px aqua);
@@ -255,3 +295,4 @@ ul{
         filter: drop-shadow(0 0 15px rgb(255, 153, 0));
     }
 }
+
