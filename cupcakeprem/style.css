@@ -219,13 +219,13 @@ ul{
     
 }
 .viiid{
-    border: 5px solid gray;
+    /* border: 5px solid gray; */
     margin-top: 20px;
     padding-top: 10px;    
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 0 15px rgb(143, 76, 0);
+    /* border-radius: 15px 15px 15px 15px; */
+    /* box-shadow: 0 0 15px rgb(143, 76, 0); */
     margin-left: 520px;
     margin-right: 520px;
 }
@@ -237,8 +237,8 @@ ul{
     margin: 20px;
     border-color: blue;
     border-radius: 15px 15px 15px 15px;
-    width: 14vw;
-    height: 4vw;
+    width: 25vw;
+    height: 6vw;
 }
 .anni{
     filter: drop-shadow(0 0 10px aqua);
