@@ -182,3 +182,70 @@ ul{
         filter: drop-shadow(0 0 15px rgb(255, 153, 0));
     }
 }
+.config{
+    color: aliceblue;
+    font-size: 2vw;
+    display: inline;
+    text-shadow: 0 0 10px aqua;
+
+}
+.bgR{
+    font-size: 25px;
+    background-color: black;
+    color: blanchedalmond;
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    border-color: burlywood;
+    border-radius: 15px 15px 15px 15px;
+    /* animation: suub;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; */
+}
+.bgR:hover{
+    animation: suub;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes suub {
+    from {
+        border-color: burlywood ;
+    }    
+    to {
+        scale: 110%;
+        color: rgb(0, 132, 255);
+
+        border-color: rgb(0, 38, 255) ;
+    }
+    
+}
+.viiid{
+    margin: 20px;
+}
+.labell{
+    font-size: 25px;
+    color: aliceblue;
+    text-shadow: 0 0 10px aqua;
+}
+.coninS{
+    margin: 20px;
+    border-color: blue;
+    border-radius: 15px 15px 15px 15px;
+    width: 14vw;
+    height: 4vw;
+}
+.anni{
+    filter: drop-shadow(0 0 10px aqua);
+    animation-name: anni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anni{
+    from{
+        filter: drop-shadow(0 0 0);
+    }
+    to {
+        filter: drop-shadow(0 0 15px rgb(255, 153, 0));
+    }
+}
