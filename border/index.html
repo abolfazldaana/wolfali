@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section style="display: block;">
+    <div class="neonb">
+        
+        <h2 id="cur-time"></h2>
+
+    </div>
+</section>
+<br>
+<h3><span>G</span>orgali <span>W</span>atch</h3>
+
+    <!-- <a href="../cupcakeprem/index.html">
+    <div class="cube">
+        <div class="top"></div>
+        <div>
+            <span class="matn" style="--i:0;">vpn</span>
+            <span class="matn" style="--i:1;">full time</span>
+            <span class="matn" style="--i:2;">vpn</span>
+            <span class="matn" style="--i:3;">vpn</span>
+        </div>
+    </div>
+</a> -->
+
+<!-- <div class="time">
+    <h1 id="cur-time"></h1>
+</div> -->
+
+
+
+<script>
+    let time = document.getElementById("cur-time");
+    setInterval(() =>{
+        let d = new Date();
+      time.innerHTML = d.toLocaleTimeString();
+    },1000)
+
+
+</script>
+</body>
+</html>
