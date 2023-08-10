@@ -258,6 +258,7 @@ ul{
     margin-left: 300px;
     margin-right: 0px;
     padding-right: 0px;
+    padding-bottom: 2500px;
 }
 .labell{
     font-size: 25px;
@@ -294,5 +295,16 @@ ul{
     to {
         filter: drop-shadow(0 0 15px rgb(255, 153, 0));
     }
+}
+
+
+#linkInput{
+    width: 25vw;
+    height: 7vw;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+.app-container{
+    padding: 50px;
 }
 
