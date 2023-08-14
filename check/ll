@@ -1,0 +1,108 @@
+
+document.addEventListener("DOMContentLoaded", () => {
+    const linkInput = document.getElementById("linkInput");
+    const submitButton = document.getElementById("submitButton");
+
+    submitButton.addEventListener("click", () => {
+        const userLink = linkInput.value.trim();
+
+        if (userLink !== "") {
+            const generatedLink = "http://139.144.67.6:8000/check/" + encodeURIComponent(userLink);
+            fetch(generatedLink)
+            .then(res =>{
+                console.log(res);
+            })
+            
+            window.open(generatedLink, "_blank");
+            
+
+        }
+    });
+});
+// script.js
+
+// Function to fetch updated data
+function fetchUpdatedData() {
+    // Make an API call or fetch data from a source
+    // For example, using the Fetch API:
+    fetch(generatedLink)
+        .then(response => response.json())
+        .then(data => {
+            // Update the HTML element with the fetched data
+            const dataContainer = document.getElementById('updata');
+            dataContainer.innerHTML = ''; // Clear existing content
+            data.forEach(item => {
+                const itemElement = document.createElement('div');
+                itemElement.textContent = item.name; // Adjust based on your data structure
+                dataContainer.appendChild(itemElement);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+}
+
+// Call the function to fetch and display updated data
+fetchUpdatedData();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+script 
+
+
+
+// script.js
+
+// Replace this URL with your generated link that provides the JSON data
+const jsonURL = "your_generated_link_here";
+
+// Function to update the values of the <span> elements
+function updateValues(data) {
+    document.getElementById("key1").textContent = data.key1;
+    document.getElementById("key2").textContent = data.key2;
+    document.getElementById("key3").textContent = data.key3;
+    document.getElementById("key4").textContent = data.key4;
+}
+
+// Fetch the JSON data from the URL
+fetch(jsonURL)
+    .then(response => response.json())
+    .then(data => {
+        updateValues(data);
+    })
+    .catch(error => {
+        console.error("Error fetching JSON data:", error);
+    });
+
+
+
+    // html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Generated JSON Data</title>
+    </head>
+    <body>
+        <h1>Generated JSON Data</h1>
+        <p>Key 1: <span id="key1"></span></p>
+        <p>Key 2: <span id="key2"></span></p>
+        <p>Key 3: <span id="key3"></span></p>
+        <p>Key 4: <span id="key4"></span></p>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
+
