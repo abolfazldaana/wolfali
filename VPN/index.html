@@ -17,36 +17,36 @@
 
     </header>
     <div class="looder"></div>
-        <nav >
-            <ul class="navi">
-                <li>
-                    <a href="#trf">
-                        <span class="text">تعرفه ها</span>
-                        <span class="icon"><ion-icon name="pricetag-outline"></ion-icon></span>
 
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="text">بررسی اکانت</span>
-                        <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="text">آموزش</span>
-                        <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="text">درباره ما</span>
-                        <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+    <nav >
+        <ul class="navi">
+            <li>
+                <a href="#trf">
+                    <span class="text">تعرفه ها</span>
+                    <!-- <span class="icon"><ion-icon name="pricetag-outline"></ion-icon></span> -->
 
+                </a>
+            </li>
+            <li>
+                <a href="#brs">
+                    <span class="text">بررسی اکانت</span>
+                    <!-- <span class="icon"><ion-icon name="help-outline"></ion-icon></span> -->
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="text">آموزش</span>
+                    <!-- <span class="icon"><ion-icon name="book-outline"></ion-icon></span> -->
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="text">درباره ما</span>
+                    <!-- <span class="icon"><ion-icon name="help-outline"></ion-icon></span> -->
+                </a>
+            </li>
+        </ul>
+    </nav>
 
     </section>
     <article class="img-info">
@@ -86,12 +86,56 @@
     </div>
     </article>
     <section class="tarefe" id="trf">
+        <div class="brdr1">
+            <p>
+                <span class="text">15 گیگ 45,000 تومان</span>
 
+            </p>
+            <p>
+                <span class="text">35 گیگ 95,000 تومان</span>
+            </p>
+            <p>
+                <span class="text">50 گیگ 135,000 تومان</span>
+            </p>            
+            <p>
+                <span class="text">75 گیگ 195,000 تومان</span>
+            </p>
+            <div class="namh">
+            <p>
+                <span class="text">اشتراک طلایی :</span>
+            </p>
+            <p>
+                <span class="text">نامحدود</span>
+                <span class="text">3 کاربر</span><br>
+                <span class="text">320,000 تومان</span>
+            </p>
+        </div>
+            <p>
+                <a class="buy" href="kharid.html">خرید</a>
+            </p>
+        
+        </div>
     </section>
+    <section class="barsi" id="brs">
+    <div class="brdr2">
+        <div class="app-container">
+            <div class="input-container">
+                <input type="text" id="linkInput" placeholder="لینک کانفیگ خود را وارد کنید"  >
+                <!-- <button id="pasteButton">جار گذاری از کلیپبورد</button> -->
+                <button id="submitButton" class="bgR">مشاهده</button>
+            </div>
+                
+            <h4>نتیجه بررسی اکانت شما</h4>
+            <h2 id="output"></h2>
+        </div>
+    </div>
+    </section>
+
+
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+<script src="script.js"></script>
 
 </body>
 </html>
