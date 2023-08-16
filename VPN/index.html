@@ -16,9 +16,8 @@
         <h1>cupcakevpn</h1>
 
     </header>
-    <div class="looder"></div>
 
-    <nav >
+    <nav class="navc" >
         <ul class="navi">
             <li>
                 <a href="#trf">
@@ -100,7 +99,7 @@
             <p>
                 <span class="text">75 گیگ 195,000 تومان</span>
             </p>
-            <div class="namh">
+        <div class="namh">
             <p>
                 <span class="text">اشتراک طلایی :</span>
             </p>
@@ -118,15 +117,27 @@
     </section>
     <section class="barsi" id="brs">
     <div class="brdr2">
+        <h3>لینک کانفیگ را در فیلد زیر جای گذاری کنید </h3>
         <div class="app-container">
             <div class="input-container">
-                <input type="text" id="linkInput" placeholder="لینک کانفیگ خود را وارد کنید"  >
-                <!-- <button id="pasteButton">جار گذاری از کلیپبورد</button> -->
-                <button id="submitButton" class="bgR">مشاهده</button>
+                    <input type="text" id="linkInput" placeholder="لینک کانفیگ خود را وارد کنید"  >
+                    <br>  <!-- <button id="pasteButton">جار گذاری از کلیپبورد</button> -->
+                    <button id="submitButton" class="bgR">مشاهده</button>
             </div>
-                
-            <h4>نتیجه بررسی اکانت شما</h4>
-            <h2 id="output"></h2>
+            <div class="rres">   
+                <p id="wait"></p>
+                <div class="rres"></div>
+                    <p>آپلود  >> <h2 id="upl"></h2></p><br>
+                    <p>دانلود  >> <h2 id="dwl"></h2></p><br>
+                    <p>مجموع حجم مصرفی  >>  <h2 id="tot"></h2></p><br>
+                    <p>روز های باقی مانده  >>  <h2 id="rd"></h2></p>
+                    <p id="wait1"></p>
+                    
+                        <div>
+                            <h2 id="output"></h2>
+                        </div>
+                    </div>
+            </div>
         </div>
     </div>
     </section>
